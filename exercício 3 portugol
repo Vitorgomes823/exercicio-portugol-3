@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, maior = 0, maior2 = 0 , contador
+		inteiro numero, maior = 0, contador
 
 
 		para (contador = 1 ; contador <= 3 ; contador ++)

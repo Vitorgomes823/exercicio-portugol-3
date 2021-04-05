@@ -3,23 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero1 , numero2
+		inteiro numero, maior = 0, maior2 = 0 , contador
 
-		escreva("Digite o primeiro número : ")
-		leia(numero1)
-		limpa()
 
-		escreva("Digite o segundo número : ")
-		leia(numero2)
-		limpa()
-
-		se (numero1  > numero2 )
+		para (contador = 1 ; contador <= 3 ; contador ++)
 		{
-			escreva(numero1," é maior que ",numero2)	
+			escreva("Digite um número : ")
+			leia(numero)
+			limpa()
+
+			se (numero > maior)
+			{
+				maior = numero
+			}
+		
 		}
-		se (numero2  > numero1 )
-		{
-			escreva(numero2," é maior que ",numero1)	
-		}
+
+		escreva("o maior numero é : ", maior)
 	}
 }
+
